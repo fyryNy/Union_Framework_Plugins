@@ -1,0 +1,1 @@
+void DrawTile_Rotated(zCTexture*, zVEC2 const&, zVEC2 const&, float, zVEC2 const&, zVEC2 const&, zCOLOR, float);

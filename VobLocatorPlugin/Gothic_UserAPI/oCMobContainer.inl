@@ -1,0 +1,1 @@
+bool IsEmpty_Union();
