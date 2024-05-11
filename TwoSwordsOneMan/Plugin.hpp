@@ -73,9 +73,9 @@ namespace GOTHIC_NAMESPACE
 										}
 								}
 								auto s = zSTRING{ hotkey };
-								int px = textView->FontSize(s);
-								int py = textView->FontY();
-								textView->PrintTimed(px + 100, 4100 - (py / 2), s, -2, &col);
+								int px = 1000;
+								int py = 800;
+								textView->PrintTimed(px, py, s, -2, &col);
 						}
 				}
 

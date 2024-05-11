@@ -61,37 +61,37 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MPx4d|Win32'" Label="Configuration">
     <ConfigurationType>DynamicLibrary</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
-    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset>v143</PlatformToolset>
     <CharacterSet>MultiByte</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MPx2d|Win32'" Label="Configuration">
     <ConfigurationType>DynamicLibrary</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
-    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset>v143</PlatformToolset>
     <CharacterSet>MultiByte</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='G1d|Win32'" Label="Configuration">
     <ConfigurationType>DynamicLibrary</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
-    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset>v143</PlatformToolset>
     <CharacterSet>MultiByte</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='G2Ad|Win32'" Label="Configuration">
     <ConfigurationType>DynamicLibrary</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
-    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset>v143</PlatformToolset>
     <CharacterSet>MultiByte</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='G2d|Win32'" Label="Configuration">
     <ConfigurationType>DynamicLibrary</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
-    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset>v143</PlatformToolset>
     <CharacterSet>MultiByte</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='G1Ad|Win32'" Label="Configuration">
     <ConfigurationType>DynamicLibrary</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
-    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset>v143</PlatformToolset>
     <CharacterSet>MultiByte</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MPx4|Win32'" Label="Configuration">
@@ -181,26 +181,32 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MPx4d|Win32'">
     <IncludePath>$(ProgramData)\UnionAPI\union-api;$(ProgramData)\UnionAPI\gothic-api;$(ProjectDir)Gothic_UserAPI;$(IncludePath)</IncludePath>
     <LibraryPath>$(ProgramData)\UnionAPI\union-api;$(ProgramData)\UnionAPI\gothic-api;$(LibraryPath)</LibraryPath>
+    <OutDir>$(SolutionDir)Bin\</OutDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MPx2d|Win32'">
     <IncludePath>$(ProgramData)\UnionAPI\union-api;$(ProgramData)\UnionAPI\gothic-api;$(ProjectDir)Gothic_UserAPI;$(IncludePath)</IncludePath>
     <LibraryPath>$(ProgramData)\UnionAPI\union-api;$(ProgramData)\UnionAPI\gothic-api;$(LibraryPath)</LibraryPath>
+    <OutDir>$(SolutionDir)Bin\</OutDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='G1d|Win32'">
     <IncludePath>$(ProgramData)\UnionAPI\union-api;$(ProgramData)\UnionAPI\gothic-api;$(ProjectDir)Gothic_UserAPI;$(IncludePath)</IncludePath>
     <LibraryPath>$(ProgramData)\UnionAPI\union-api;$(ProgramData)\UnionAPI\gothic-api;$(LibraryPath)</LibraryPath>
+    <OutDir>$(SolutionDir)Bin\</OutDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='G2Ad|Win32'">
     <IncludePath>$(ProgramData)\UnionAPI\union-api;$(ProgramData)\UnionAPI\gothic-api;$(ProjectDir)Gothic_UserAPI;$(IncludePath)</IncludePath>
     <LibraryPath>$(ProgramData)\UnionAPI\union-api;$(ProgramData)\UnionAPI\gothic-api;$(LibraryPath)</LibraryPath>
+    <OutDir>$(SolutionDir)Bin\</OutDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='G2d|Win32'">
     <IncludePath>$(ProgramData)\UnionAPI\union-api;$(ProgramData)\UnionAPI\gothic-api;$(ProjectDir)Gothic_UserAPI;$(IncludePath)</IncludePath>
     <LibraryPath>$(ProgramData)\UnionAPI\union-api;$(ProgramData)\UnionAPI\gothic-api;$(LibraryPath)</LibraryPath>
+    <OutDir>$(SolutionDir)Bin\</OutDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='G1Ad|Win32'">
     <IncludePath>$(ProgramData)\UnionAPI\union-api;$(ProgramData)\UnionAPI\gothic-api;$(ProjectDir)Gothic_UserAPI;$(IncludePath)</IncludePath>
     <LibraryPath>$(ProgramData)\UnionAPI\union-api;$(ProgramData)\UnionAPI\gothic-api;$(LibraryPath)</LibraryPath>
+    <OutDir>$(SolutionDir)Bin\</OutDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MPx4|Win32'">
     <IncludePath>$(ProgramData)\UnionAPI\union-api;$(ProgramData)\UnionAPI\gothic-api;$(ProjectDir)Gothic_UserAPI;$(IncludePath)</IncludePath>
@@ -210,22 +216,27 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MPx2|Win32'">
     <IncludePath>$(ProgramData)\UnionAPI\union-api;$(ProgramData)\UnionAPI\gothic-api;$(ProjectDir)Gothic_UserAPI;$(IncludePath)</IncludePath>
     <LibraryPath>$(ProgramData)\UnionAPI\union-api;$(ProgramData)\UnionAPI\gothic-api;$(LibraryPath)</LibraryPath>
+    <OutDir>$(SolutionDir)Bin\</OutDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='G1|Win32'">
     <IncludePath>$(ProgramData)\UnionAPI\union-api;$(ProgramData)\UnionAPI\gothic-api;$(ProjectDir)Gothic_UserAPI;$(IncludePath)</IncludePath>
     <LibraryPath>$(ProgramData)\UnionAPI\union-api;$(ProgramData)\UnionAPI\gothic-api;$(LibraryPath)</LibraryPath>
+    <OutDir>$(SolutionDir)Bin\</OutDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='G2A|Win32'">
     <IncludePath>$(ProgramData)\UnionAPI\union-api;$(ProgramData)\UnionAPI\gothic-api;$(ProjectDir)Gothic_UserAPI;$(IncludePath)</IncludePath>
     <LibraryPath>$(ProgramData)\UnionAPI\union-api;$(ProgramData)\UnionAPI\gothic-api;$(LibraryPath)</LibraryPath>
+    <OutDir>$(SolutionDir)Bin\</OutDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='G2|Win32'">
     <IncludePath>$(ProgramData)\UnionAPI\union-api;$(ProgramData)\UnionAPI\gothic-api;$(ProjectDir)Gothic_UserAPI;$(IncludePath)</IncludePath>
     <LibraryPath>$(ProgramData)\UnionAPI\union-api;$(ProgramData)\UnionAPI\gothic-api;$(LibraryPath)</LibraryPath>
+    <OutDir>$(SolutionDir)Bin\</OutDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='G1A|Win32'">
     <IncludePath>$(ProgramData)\UnionAPI\union-api;$(ProgramData)\UnionAPI\gothic-api;$(ProjectDir)Gothic_UserAPI;$(IncludePath)</IncludePath>
     <LibraryPath>$(ProgramData)\UnionAPI\union-api;$(ProgramData)\UnionAPI\gothic-api;$(LibraryPath)</LibraryPath>
+    <OutDir>$(SolutionDir)Bin\</OutDir>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MPx4d|Win32'">
     <ClCompile>
